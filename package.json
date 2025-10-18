@@ -1,0 +1,38 @@
+{
+  "name": "com.flfloppa.events-system",
+  "displayName": "FLFloppa Events System",
+  "version": "0.1.0",
+  "description": "Zero-allocation event dispatch framework with feature-driven configurators and runtime schedulers.",
+  "unity": "2022.3",
+  "unityRelease": "0f1",
+  "documentationUrl": "https://github.com/FLFloppa/events-system/blob/main/README.md",
+  "changelogUrl": "https://github.com/FLFloppa/events-system/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/FLFloppa/events-system/blob/main/LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FLFloppa/events-system.git"
+  },
+  "author": {
+    "name": "FLFloppa",
+    "email": "flfloppa@yandex.ru",
+    "url": "https://github.com/FLFloppa"
+  },
+  "keywords": [
+    "events",
+    "dispatch",
+    "unity",
+    "flfloppa",
+    "runtime"
+  ],
+  "category": "Framework",
+  "dependencies": {
+    "com.flfloppa.editor-helpers": "0.1.0"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Event Service Setup",
+      "description": "Example assets demonstrating how to configure an EventService, subscribe to events, and publish payloads.",
+      "path": "Samples~/BasicSetup"
+    }
+  ]
+}

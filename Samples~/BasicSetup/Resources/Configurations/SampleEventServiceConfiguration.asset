@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628926d046a4d5a4ba26cc058c2e4a54, type: 3}
+  m_Name: SampleEventServiceConfiguration
+  m_EditorClassIdentifier: FLFloppa.Events.Runtime::FLFloppa.Events.EventServiceConfigurationAsset
+  dispatchPolicy: {fileID: 11400000, guid: f2ae256f2f8251c4bb5808b093fb872e, type: 2}
+  executorStrategy: {fileID: 11400000, guid: 9515272076d970049b11d9ce7b4164a6, type: 2}
+  subscriptionConfigurator: {fileID: 11400000, guid: e32bc16c4eb7a474595cefb766da62a0, type: 2}
+  dispatchConfigurator: {fileID: 11400000, guid: 6bd6990534bf5cd48bfa5654e1b4a3dd, type: 2}
+  diagnosticsProvider: {fileID: 11400000, guid: 680681bb8f7ced140a7d0e2d6467b50d, type: 2}
+  subscriptionScheduler: {fileID: 11400000, guid: 4228af4b8cfb6c745a7027e59f0f420e, type: 2}
