@@ -164,6 +164,8 @@ Import the **Basic Event Service Setup** sample from the Package Manager:
 * [`Docs/quick_start.md`](Docs/quick_start.md) – Quick start guide, configuration steps, and troubleshooting tips.
 * Additional documentation will grow under `Documentation~/` in upcoming releases.
 
+![Event Service Configuration Inspector](Docs/images/event_service_inspector.png)
+
 Documentation and changelog URLs are also exposed through `package.json` for Unity Package Manager linking.
 
 ---
