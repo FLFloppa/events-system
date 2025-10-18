@@ -147,6 +147,8 @@ The FLFloppa Events System delivers a fast, modular publish/subscribe pipeline t
 * __Feature list inspectors__ – Toggle and reorder subscription/dispatch feature bindings with inline validation.
 * __Scheduler asset inspectors__ – Configure defaults (priority baseline, throttle interval, backlog ceilings) with contextual help.
 
+![Event Service Configuration Inspector](Docs/images/event_service_inspector.png)
+
 ---
 
 ## Samples
@@ -163,8 +165,6 @@ Import the **Basic Event Service Setup** sample from the Package Manager:
 * [`Docs/manual.md`](Docs/manual.md) – Comprehensive manual with editor setup, runtime bootstrapping, feature composition, and scheduler recipes.
 * [`Docs/quick_start.md`](Docs/quick_start.md) – Quick start guide, configuration steps, and troubleshooting tips.
 * Additional documentation will grow under `Documentation~/` in upcoming releases.
-
-![Event Service Configuration Inspector](Docs/images/event_service_inspector.png)
 
 Documentation and changelog URLs are also exposed through `package.json` for Unity Package Manager linking.
 
