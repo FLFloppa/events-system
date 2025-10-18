@@ -61,7 +61,11 @@ The FLFloppa Events System delivers a fast, modular publish/subscribe pipeline t
    https://github.com/FLFloppa/events-system.git
    ```
 4. Unity installs the package and registers samples.
-5. Install UniTask via Git URL (`https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask`).
+5. Add the **FLFloppa Editor Helpers** dependency manually:
+   ```
+   https://github.com/FLFloppa/editor-helpers.git
+   ```
+6. Install UniTask via Git URL (`https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask`).
 
 ### Via GitHub release archive
 
@@ -73,7 +77,8 @@ The FLFloppa Events System delivers a fast, modular publish/subscribe pipeline t
 
 1. Clone/download the repository.
 2. Copy `Packages/FLFloppa Events System/` into your project’s `Packages/` directory.
-3. Restart Unity to regenerate assembly definitions.
+3. Also copy or install `Packages/FLFloppa Editor Helpers/` (or pull from `https://github.com/FLFloppa/editor-helpers.git`).
+4. Restart Unity to regenerate assembly definitions.
 
 ---
 
