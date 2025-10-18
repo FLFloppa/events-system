@@ -26,7 +26,7 @@
   ],
   "category": "Framework",
   "dependencies": {
-    "com.flfloppa.editor-helpers": "0.1.0"
+    "com.flfloppa.editor-helpers": "https://github.com/FLFloppa/editor-helpers.git"
   },
   "samples": [
     {
